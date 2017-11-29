@@ -23,10 +23,3 @@ _Happy Test_ is a talk about purposeful test design. Tests should be given even 
 Too often that story is one of pain. Our test suite tells us that we should ignore our failed builds because, "Who wants to wait an hour for a new one?". We lose confidence in our suite. Each new change makes us break out into a cold sweat as we anticipate the number of tests that we'll need to rework.
 
 We can rewrite the ending to that story by designing better tests. By honing in on a couple key words - *focus*, *trust*, and *cost* - we can find the most value in our tests. By defining different types of tests with different purposes, we can get the most value out of our test suite.
-
-## Bio
-Sam Jones | @samjonester | https://samljones.com
-
-I believe that empathy and openness should be a developer's sharpest tools. When I'm programming, I love code design, and testing. I also have a strong passion for learning and teaching.
-
-I am a double agent at Test Double living in Philadelphia, PA. I am a cook and cyclist in my free time. I love craft beer and good coffee. I'm a Husband and Father.

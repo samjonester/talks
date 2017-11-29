@@ -28,10 +28,3 @@ A Better Technical Interview is a response to (rightfully) grumpy tweets about h
 Candidates shouldn't be afraid that shouldn't be afraid that a technical interview won't reflect their true abilities. They should feel that an interview valuable even if the decision is "Not Yet".
 
 My team has been continuously improving our interview process for multiple years, and this talk shares our learning. A Better Technical Interview presents an alternative to buzzword driven interviews and unrealistic coding exercises that are too often used to evaluate a candidate. The most valuable things a candidate can bring to a team aren't rote programming skills, and A Better Technical Interview provides techniques to properly evaluate what's truly important.
-
-# Bio
-Sam Jones | @samjonester
-
-I believe that empathy and openness should be a developer's sharpest tools. When I'm programming, I love code design, and testing. I also have a strong passion for learning and teaching.
-
-I am a double agent at Test Double living in Philadelphia, PA. I am a cook and cyclist in my free time. I love craft beer and good coffee. I'm a Husband and Father.

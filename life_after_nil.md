@@ -31,11 +31,3 @@ The design techniques covered in this talk are:
 * How to declaratively model a domain by using types instead of primitives. And the benefits of controlling transitions within domain objects.
 * How to use named domain concepts to break up work. How to compose functionality and transformations into larger concepts.
 * How to design an API from the outside in for clean public and private APIs that are by design easy to interact with and test.
-
-# Biography
-
-Sam Jones @samjonester
-
-I have been learning Haskell as a hobby, and I’ve been blown away by it’s elegant handling of Optional data, and the powerful way in which the type system drives the design of my code. I was originally a Java developer, so I am familiar with typical OOP strong typing. However, Haskell’s type system was such a different and enlightening experience, that I’d LOVE to help light that bulb over the heads of many more Rubyists.
-
-I am a double agent at Test Double living in Philadelphia, PA. I have a passion for learning and teaching. I love the ruby community for its inclusivity, and also for fostering such an amazing community. Ruby is a place where anyone can share ideas and code. I am a cook and cyclist in my free time, as well as a Husband and Father.

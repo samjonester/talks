@@ -52,9 +52,3 @@ _Do I Really Need To Test That!?_ is a fantastic addition to the RailsConf Devel
 RailsConf is the perfect venue for this talk. In the Rails community, many developers are currently leveling up and starting to question dogmas about testing. Although it's valuable to first learn to test "the Rails way", there is a time where these ideas should be questioned in order to continue growing. As these developers progress they begin using more purposeful code design practices. An important part of that process is learning to write tests that keep the team from feeling burnt out on testing.
 
 I have helped write a gigantic, slow, flaky test suite. It had many tests that relied on the filesystem, on external integrations, and on a properly created and seeded database. This caused me to hate working on the application. I have first hand experience feeling the pain of poor tests. I also have had the fortune to have learned how to listen to my tests. I want to help relieve others of the pain I went through to get to this point.
-
-## Bio
-
-Sam Jones | @samjonester
-
-I am extremely passionate about code design and testing. I believe that tests are a way to provide context, clarity, and design feedback. My favorite way to test and write code is through outside-in development. My favorite things to think about during that process are responsibilities and dependency management. I'd love to have a discussion about these topics with you. Find me at the conference!
