@@ -4,18 +4,26 @@ JavaScript Is Too Convenient
 
 # Abstract
 
-Are in-line objects and anonymous functions depriving your code of important names? Are they too noisy, making it difficult to understand the purpose of a function? Analyze the real cost of these conveniences, and write nicer code.
+Which conveniences do we take advantage of everyday? Which are taking advantage of us?
+
+Objects and functions sure are convenient, so convenient that we do many shortsighted things just because they're easy.
+
+In-line objects and anonymous functions create a poor signal to noise ratio, making it hard to understand your code.
+
+Learn ways to give confusing things names, focus on what's important, and write nicer code.
 
 # Description
 
-Conveniences we love in JavaScript are discouraging us from writing concise, descriptive code. In-line objects and anonymous functions deprive us of descriptive domain names for the actions we are performing and the objects we use to perform them. They add noise that distracts from the purpose of a function.
+Conveniences we love in JavaScript are discouraging us from writing concise, descriptive code.
 
-This is especially true in tests, which should help us feel the code we write. These conveniences encourage us to create functions that do too much and require complex test setup.
+In-line objects and anonymous functions deprive us of important domain names. They add noise that distracts from the purpose of a function. This is even true in tests. Tests should help us feel the code we write, but instead they're confusing us with complex data and unrelated setup.
 
-"JavaScript is Too Convenient" will encourage you to write more focused code with good names. We can make our code nicer for new team members, and our future selves by examining the purpose of our code, amplifying the signal, and reducing the noise.
+These conveniences encourage us to create functions that do too much. They help us write code that lacks focus and intent.
+
+"JavaScript is too Convenient" will encourage you to give complex things names, find the purpose of each unit of code, and focus on things that promote understanding.
 
 # Notes
 
-The two most important things we can do to make code more accessible to new team members and our future selves are to leave good notes in the form of names, and remove noise that distracts from the purpose of our code. These two goals are at odds with two of the most popular conveniences in JavaScript, in-line objects and anonymous functions. This talk highlights that competition by providing the ability to decide whether their use is harmful in your code. It presents alternative approaches as a spectrum from the simple activity of naming in-line anonymous functions, all the way to extracting pieces of functionality into well named collaborating modules. I argue that we spend the majority of our time as developers reading code, so let's make our code nicer to read!
+Think back to the last time you had to change code. Remember the emotions it made you feel. We want to write code that encourages confidence when it's changed and read. We do this by leaving signposts in the form of domain names. We do this by removing noise that distracts from the purpose of our code.
 
-
+The goal of writing understandable, changeable code is at odds with our favorite conveniences in JavaScript. This talk highlights that fact by first looking at how we wind up in a bad situation, them teaching the audience how to fix it.
