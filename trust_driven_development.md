@@ -6,7 +6,7 @@ Do you trust that your code works, that your changes are correct and bug-free? I
 
 Do you trust that libraries work, databases store things, http integrations won't change, and that you're interacting with everything correctly? Testing these things is much more complicated.
 
-Code at the boundaries of our application code have much different benefits and costs. How do we decide if they are valuable enough to spend time testing?
+Code at the boundaries of our application code has very different benefits and costs. How do we decide if they are valuable enough to spend time testing?
 
 Use Trust Driven Development to analyze the value of testing these complicated integrations.
 
@@ -18,11 +18,11 @@ Trust Driven Delelopment allows us to analyze the boundaries of our applications
 
 The audience will be rallied around a series of unfortunate tests. During this section, we will think deeoly about what value these tests are providing, and whether they are worth their cost.
 
-After analyzing each testing scenario, the audience is guided towards higher value solutions. They are shown techniques to isolate dependencies where there is high trust to avoid high cost low value testing scenarios. Then they will be shown techniques to properly test dependencies where there is low trust.
+After analyzing each testing scenario, the audience is guided towards higher value solutions. They are shown techniques to isolate dependencies where there is high trust to avoid high-cost low-value testing scenarios. Then they will be shown techniques to properly test dependencies where there is low trust.
 
 The types of dependencies that the audience will be helped to analyze, ordered by degrees separation follow:
 - Libraries that have become the primitives in our system
 - Libraries that act as clients to stable external integrations
 - Home-grown external integrations
 
-A focus will also be given to the volatility of an integraiton point. This is an interesting discussion point because we don't trust this integration point, though its test might not deserve a place in our development test sutie. This point will bend the audiences mental model of testing strategies beyond "run these before merging" style tests.
+A focus will also be given to the volatility of an integration point. This is an interesting discussion point because we don't trust this integration point, though its test might not deserve a place in our development test suite. This point will bend the audiences mental model of testing strategies beyond "run these before merging" style tests.
