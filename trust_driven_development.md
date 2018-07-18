@@ -10,17 +10,20 @@ Use TRUST as a metric to determine the value of tests at the boundaries of your 
 
 ## Details
 
-Trust Driven Development is a chance for reflection. It is based on the concept that classic Test Driven Development allows us to think deeply about the design of our code.
+Trust Driven Development is a chance for reflection. It is an evolution on the concept that Test Driven Development helps us to design our code.
 
-Trust Driven Delelopment allows us to analyze the boundaries of our applications. We can purposefully design and test integration points between our code and the dependencies it relies on.
+Trust Driven Delelopment allows us to think deeply about the boundaries of our applications. We can purposefully design and test integration points between our code and the dependencies it relies on.
 
-The audience will be rallied around a series of unfortunate tests. During this section, we will think deeoly about what value these tests are providing, and whether they are worth their cost.
+The audience will be rallied around a series of unfortunate tests. We will talk about the cost and the value that is created by each specific test at the boundary of an application. We will ask ourselves whether or not this test should be written and left to run in our test suite for all of eternity.
 
 After analyzing each testing scenario, the audience is guided towards higher value solutions. They are shown techniques to isolate dependencies where there is high trust to avoid high-cost low-value testing scenarios. Then they will be shown techniques to properly test dependencies where there is low trust.
 
 The types of dependencies that the audience will be helped to analyze, ordered by degrees separation follow:
+
 - Libraries that have become the primitives in our system
 - Libraries that act as clients to stable external integrations
 - Home-grown external integrations
+- A focus will also be given to the volatility of an integration point. This is an interesting discussion point because we shouldn't trust this integration point, though a test serves a different purpose than regression tests to prevent breaking the application as code changes. This point will bend the audiences mental model of testing strategies beyond "run these before merging" style tests.
 
-A focus will also be given to the volatility of an integration point. This is an interesting discussion point because we don't trust this integration point, though its test might not deserve a place in our development test suite. This point will bend the audiences mental model of testing strategies beyond "run these before merging" style tests.
+## Notes
+I am a software consultant who has seen many test suites. When teams that I work with have gained a solid grasp of the fundamentals of testing code, this opens up discussion points about how to optimize a test suite. The goal of a test suite is to provide the most value for regression safety, flexibility for change, design guidance, with the least amount of maintainence and execution cost to the team. One surprisingly high-cost area is at the boundaries of an application. I often have the opportunity to coach teams to be smarter about the way they write tests for code that has external integrations (libraries, file-systems, databases, http integrations...). Trust is a primal word that I like to use to prompt thoughtfulness about the tradeoffs of these tricky tests.
