@@ -2,13 +2,11 @@
 
 ## Abstract
 
-Do you trust that your code works, that your changes are correct and bug-free? I hope so! That's why we write tests, after-all. What about your dependencies?
+Tests help you trust that YOUR code works and can be changed, but where do you draw the line?
 
-Do you trust that libraries work, databases store things, http integrations won't change, and that you're interacting with everything correctly? Testing these things is much more complicated.
+Do you trust that databases store things, or you can make HTTP requests? When should we test these things?
 
-Code at the boundaries of our application code has very different benefits and costs. How do we decide if they are valuable enough to spend time testing?
-
-Use Trust Driven Development to analyze the value of testing these complicated integrations.
+Use TRUST as a metric to determine the value of tests at the boundaries of your application.
 
 ## Details
 
